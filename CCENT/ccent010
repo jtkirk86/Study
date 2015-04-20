@@ -4,4 +4,21 @@
 	-The Life-Saving help features in Cisco IOS
 	-Understanding the Cisco IOS Modes
 
-
+#Cisco IOS
+	-Internetwork Operation System
+	-Initial Config Serial Port
+		1. BAUD RATE:9600
+		2. DATA BITS: 8
+		3. PARITY: NONE
+		4. STOP BITS: 1
+		5. FLOW CONTROL: NONE
+#MODES (? in each mode to find commands)
+	-USER MODE (Limited Troubleshooting/Visibility)
+		1.To Priv Mode (enable)
+	-PRIVELEGED MODE (Full Options / Admin Mode)
+		1. To Conf Mode (config term)
+	-CONFIGURE MODE (Global Options / Device Admin)
+#COMMANDS
+	1.en - Enable, escelate to privelaged mode.
+	2.exit - go back out a level, ex(config-if to config)
+	3.CTRL-Z - bail out and cancel the config / current command
