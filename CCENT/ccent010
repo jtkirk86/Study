@@ -13,11 +13,11 @@
 		4. STOP BITS: 1
 		5. FLOW CONTROL: NONE
 #MODES (? in each mode to find commands)
-	-USER MODE (Limited Troubleshooting/Visibility)
+	-USER MODE (Limited Troubleshooting/Visibility)[> at end]
 		1.To Priv Mode (enable)
-	-PRIVELEGED MODE (Full Options / Admin Mode)
+	-PRIVELEGED MODE (Full Options / Admin Mode)[# at end]
 		1. To Conf Mode (config term)
-	-CONFIGURE MODE (Global Options / Device Admin)
+	-CONFIGURE MODE (Global Options / Device Admin)[(config) at end]
 #COMMANDS
 	1.en - Enable, escelate to privelaged mode.
 	2.exit - go back out a level, ex(config-if to config)

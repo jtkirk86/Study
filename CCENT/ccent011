@@ -1,0 +1,21 @@
+##SWITCHING: Base Configuration
+
+##NEVER USE THE INITIAL CONFIG DIAGLOG
+	-enable, then conf t (configure terminal)
+#Initial Config Checklist
+	01. Hostname
+	-'hostname <name>'
+	02. Management IP (VLAN)
+	03. Negating Commands
+	-no <command> (example 'no hostname' = remove the hostname)
+	04. Default Gateway
+	05. Console Password
+	-(config mode) 'line console 0'
+	-'password [#] <password>'
+	-'login' - will require login 'no login' - will disable login from being required.
+	06. Shutdown
+	07. Telnet Password
+	08. Logon Banner
+	09. Enable Password
+	10. Saving Configurations
+	11. Verification
