@@ -23,3 +23,7 @@
 		-'enable [#] password <password'
 	10. Saving Configurations
 	11. Verification
+	
+	Password Encryption - Global Config Mode 'service password-encryption'
+	'exec-timeout # #' Min / Sec for timeout
+	'logging synchronous'
