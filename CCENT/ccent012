@@ -6,24 +6,40 @@
 	01. Hostname
 		-'hostname <name>'
 	02. Management IP (VLAN)
+		-'int vlan 1'
+		-'ip address x.x.x.x s.s.s.s' x = ip s = subnet mask
+		-'no shutdown'
 	03. Negating Commands
 		-no <command> (example 'no hostname' = remove the hostname)
 	04. Default Gateway
+		-'ip default-gateway x.x.x.x' from global config
 	05. Console Password
 		-(config mode) 'line console 0'
 		-'password [#] <password>'
 		-'login' - will require login 'no login' - will disable login from being required.
 	06. Shutdown
+		-all ports not in use
+		-'show ip interface brief'
+		-'int fastEthernet 0/1'
+		-'shutdown'
+		-multiple ports
+		-'int range fa 0/1 - 10
 	07. Telnet Password
 		-'line vty 0 15' (means line config of telnet ports 0 through 15)
 		-'password [#] <password>'
 		-'login' - will require login 'no login' - will disable login from being required.
 	08. Logon Banner
+		-'banner motd +<text>+' from global config
+		-'banner motd +<ENTER>' type in the text and end with same '+'
 	09. Enable Password
 		-'enable [#] password <password'
 	10. Saving Configurations
+		-'copy running-config startup-config'
+		-'write memory' or 'wr' is short for the copy..... command
+		-'show start' or 'show run' to view configs
 	11. Verification
 	
 	Password Encryption - Global Config Mode 'service password-encryption'
 	'exec-timeout # #' Min / Sec for timeout
 	'logging synchronous'
+	'show ip interface brief'
