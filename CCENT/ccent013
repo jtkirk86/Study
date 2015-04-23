@@ -1,0 +1,18 @@
+##CCENT 013 - Configuring SSH, User Accounts & Password Encryption
+
+#SSH
+	1. Configure Your Hostname
+		-
+	2. Configure a Domain Name
+		-'ip domain-name <name>'
+	3. Generate Encryption Keys
+		-'crypto key generate rsa'
+		-How many Bits in the modulus '2048'
+	4. Enable SSH Version
+		-'ip ssh version 2'
+	5. Create Local User Account(s)
+		- Global Config 'username <username> secret <password>'
+	6. Choose to Allow Telnet and SSH
+		-'line vty 0 15'
+		-'transport input [telnet] [ssh]'
+		-'login local'
