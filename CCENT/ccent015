@@ -1,3 +1,14 @@
 ##Switching: Cisco Switching - Day to Day
 
+#Switch Notes
+	-All items are set to auto detect by default
+	-Auto did not work properly on 10mpbs and 100mpbs
+	-100mbps should be hardcoded in switch for key devices
+	-1000mbps should be set to aut
 
+#Config
+	-(Interface config) 'speed x' x = number
+	-'duplex <type>' type = full, half
+
+Lots of collisions mean duplex errors.
+Lots of CRC errors may mean bad cabling.
