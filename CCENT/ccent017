@@ -1,0 +1,10 @@
+##CCENT 017 - Understanding VTP & 802.1q
+
+#Trunking
+	-Connect multiple switches together, all VLANS can cross all switches
+	-4 bytes for the tag to ID the VLAN
+	-802.1Q - trunk tagging
+	-ISL - trunk tagging
+	-CoS - Class of Service (Priotity of traffic)
+
+	-VTP VLAN Trunking Protocol - transfers configuration from one switch to all the others based on revision number
