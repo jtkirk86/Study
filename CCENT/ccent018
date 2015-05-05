@@ -1,3 +1,16 @@
 ##CCENT 018 - Configuring Trunking, VTP and VLANs
 
+#Creating VLANS
+	-'show vlan' - show current vlans that are configured
+	- 'conf t' - global config mode
+	-'vlan <##>' - configure specific vlan number
+	-'name <name>'	- set the name of the current vlan
+	-'description <description>' - set the description of the vlan
+	
+	-'int <interface>' - config the interface
+	-'switchport access vlan <##>' changes the VLAN on a port
+	-'interface vlan <##>' - creates a virtual interface on that vlan
+	-'ip address <address> <subnet>' - from vlan interface config to assign it an address
 
+*At least one port must be in the VLAN1 network for mgmt interface.
+*Protocol Down means no other ports are in the same VLAN, so no communication is needed
