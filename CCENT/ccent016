@@ -1,3 +1,20 @@
 ##CCENT016 - Understanding VLANs and Trunks
 
+#Vlans
+	-Logically Groups Users
+	-Segments Broadcast Domains
+	-Subnet Correlation
+	-Access Control
+	-Quality of Service
 
+*Useful for segmenting network traffic and users. 
+-Example Vlan Setup
+	-VLAN10 192.168.1.0/24
+	-VLAN20 192.168.2.0/24
+
+
+#Trunks
+	-Carries all VLANS
+	-Should be faster than other ports if possible
+	-CISCO - TRUNK PORT / OTHERS - TAGGED PORT
+	-TRUNK/TAGGED Ports put the vlan number tags on each packet which is stripped off at the next switch
